@@ -1,0 +1,27 @@
+# Binaries
+/gohealth
+/gohealth.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and coverage
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace / build cache
+/bin/
+/dist/
+go.work
+go.work.sum
+
+# Editor / OS cruft
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
